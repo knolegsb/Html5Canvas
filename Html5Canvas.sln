@@ -3,26 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Html5Canvas", "..\..\Html5Canvas\", "{0A63FBA6-B779-453D-ABCF-F6AF087B2793}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Html5Canvas", ".", "{77D63BA4-B5B7-4A6B-92B6-A6EB8D7E3C93}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_18007"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\Html5Canvas\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_18007\"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_19099"
+		Debug.AspNetCompiler.PhysicalPath = "..\Html5Canvas\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_19099\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_18007"
-		Release.AspNetCompiler.PhysicalPath = "..\..\Html5Canvas\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_18007\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_19099"
+		Release.AspNetCompiler.PhysicalPath = "..\Html5Canvas\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_19099\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "18007"
-		SlnRelativePath = "..\..\Html5Canvas\"
-		DefaultWebSiteLanguage = "Visual C#"
+		VWDPort = "19099"
+		SlnRelativePath = "..\Html5Canvas\"
 	EndProjectSection
 EndProject
 Global
@@ -30,8 +29,8 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0A63FBA6-B779-453D-ABCF-F6AF087B2793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0A63FBA6-B779-453D-ABCF-F6AF087B2793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77D63BA4-B5B7-4A6B-92B6-A6EB8D7E3C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77D63BA4-B5B7-4A6B-92B6-A6EB8D7E3C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
