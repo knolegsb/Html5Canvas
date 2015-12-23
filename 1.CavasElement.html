@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Canvas Element</title>
+	<meta charset="utf-8" />
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="myCanvas" width="578" height="200"></canvas>
+
+    <script>
+        var canvas = document.getElementById('myCanvas');
+        var context = canvas.getContext('2d');
+
+        context.font = '40pt Caligri';
+        context.fillStyle = 'blue';
+        context.fillText('Hello World', 150, 100);
+    </script>
+</body>
+</html>
