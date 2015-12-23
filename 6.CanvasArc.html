@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Canvas Arc</title>
+	<meta charset="utf-8" />
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="myCanvas" width="578" height="250"></canvas>
+    <script>
+        var canvas = document.getElementById('myCanvas');
+        var context = canvas.getContext('2d');
+        var x = canvas.width / 2;
+        var y = canvas.height / 2;
+        var radius = 75;
+        var startAngle = 1 * Math.PI;
+        var endAngle = 3 * Math.PI;
+        var counterClockWise = false;
+
+        context.beginPath();
+        context.arc(x, y, radius, startAngle, endAngle, counterClockWise);
+        context.lineWidth = 15;
+        context.lineCap = 'round';
+
+        context.strokeStyle = 'black';
+        context.stroke();
+    </script>
+</body>
+</html>

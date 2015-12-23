@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Canvas Bezier Curve</title>
+	<meta charset="utf-8" />
+	<style>
+		body {
+			margin: 0px;
+			padding: 0px;
+		}
+	</style>
+</head>
+<body>
+	<canvas id="myCanvas" width="578" height="200"></canvas>
+	<script>
+		var canvas = document.getElementById('myCanvas');
+		var context = canvas.getContext('2d');
+
+		context.beginPath();
+		context.moveTo(188, 130);
+		context.bezierCurveTo(140, 10, 500, 10, 388, 170);
+		context.lineWidth = 10;
+
+		context.strokeStyle = 'black';
+		context.stroke();
+	</script>
+</body>
+</html>
